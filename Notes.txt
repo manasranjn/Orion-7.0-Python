@@ -1,0 +1,239 @@
+What is programming
+programming is a process of writing a instruction which computer can understand. Instruction means code which we write to perform some tasks.
+
+2.Compiler
+It is a software which converts human readable codes into machine readable code at once, ex : c, c++, java.
+
+3. Interpreter
+It is a software which converts human readable codes into machine readable code at a line by line code. ex : python, JavaScript.
+
+##Programming languages are classified into two types: 
+low level languages and high level languages
+
+** Low Level Language : It directly interact with hardware, It is fast and difficult. ex: Assembly language and machine code.
+
+** High level language : It is easy to read and write, It needs a translator to translate a human readable codes into machine codes, To translate we use either compiler or interpreter, It is Slower as compare to level language. ex: c++, java.
+
+## What is Python?
+: Python is high level interpreter programming language, it was developed by Guido van Rossum in 1991, It is used to web development , data science , data analytic, AIML, automation etc.
+It is known for its easy syntax which is easy to learn.
+
+## What is Syntax?
+: In programming syntax means set of rules that define the structure and format of a programming language and features of python(easy to learn, interpretred language, cross platform, use library support, open source , object oriented programming, functional programming, scalable and fast)
+Note: To create a python file the extension should be .py. ex: demo.py.
+Note : Print() = It is a inbuilt function which is used to display some output in our terminal .
+
+## Comments:
+Comments are notes written in code that aree ignored by compiler or interpreter when the program runs, Comments are for human to explain the code or to temporarily disable a part of code , To create comments in python there are two ways :
+1.	Single line comments : use # symbol at the starting of the line to create a single line comments.
+
+2. Multi line comments : Technically python does not have a built in multi line comments syntax but we can create by using triple quote (''') ("""). 
+
+##Variables:
+Variables are the containers which are used to store some value or data in a programming language , Rules to create variables : 
+
+1. Name should not have any space 
+2. Name should not start a number 
+3.No special characters are allow except underscore(_) 
+4. Keywords can not be used to create a variable 
+
+Data Types are the category which specify which type of value a variable can store.
+##Number Types :
+There are three types of number types 
+a. Int: It stores whole positive or negative number. ex= a =10, b=-20
+b. float type : it stores floating point or decimal positive or negative numbers. ex: 1..23
+c. Complex Types : It is the combination of real number and imaginary part.
+-This is used for scientific calculations.
+eg: a+xj, 5+aj
+
+##Boolean Type:-
+It represents only two value that is True and False
+It is used for logical operations.
+
+##Sequence Types:-
+It stores ordered collection of items in a single variable.
+There are three types of sequence variables :
+
+a. String : Sequence of characters which is written inside single or doble quotes.
+eg: str = "Hello", 'Hi'
+
+b. Lists: It is a collection of multiple values in a single variable.
+It is mmutable in nature
+It is denoted by square Bracket [].
+eg: name = ['sumit', 'Golu']
+
+c. Touple: It is a collection of multiple values in a single variable.
+It is immutable in nature. It can't be changed once created.
+It is denoted by curly braces {}
+eg: marks = {10,20,30}
+
+
+##Set Types:-
+It is a collection of unordered unique value.
+It is denoted by curly braces
+eg: item = {1,1,2,3,4,4,5,6}
+output will be unique 
+
+## Mapping Types
+It has one data type:
+
+a. Dictionary (dict) :- It is a collection of unordered mutable key value pairs
+
+We can store any type of value in a single dictionary.
+eg:- object = {
+name : 'ABAC',
+marks : 60,
+age : 20
+}
+It is denoted by curly braces and each key value pair is separated by comma(,).
+
+##None Types:-
+None means Nothing 
+It represents the absence of a value.
+eg: a = None
+
+Note:- type() function is used to check the data type of a variable or object.
+
+
+##Operators 
+Operators are the symbols or keywords used to perform 
+Operations on variables and value or operands.
+eg : a+b
+a-b
+a/b
+a*b
+
+here a and b are operands and '+,-,/,*' are the operators
+
+1. Arithmetic Operators:- used for mathematical operations with numeric values.
++:Addition
+-:Subtraction
+/:Division
+*:Multiplication
+%:Modulus(Remainder)
+**:Power or exponent
+//:Floor division(Round Value)
+
+2. Assignment Operators:- Used to assign value to variables.
+=  : Assigns value to variable
++= : Adds and Assigns value to the left operand
+-= : Subtract and assign value to the left operand
+*= : Multiply and assign value to the left operand
+/= : Divide and assign value to the left operand
+//=: Flloor divide and assign value to the left operand
+%= : Modulus and assign value to the left operand
+**=: Powers and assign value to the left operand
+
+3. Comparison Operator(Relational):- Used to Compare value and it returns only two values either true or false.
+
+== (Equals to) -> returns True if both the operandds are same
+!= (Not Equals to) -> Returns True if both the operands are not same
+>(Greater than) -> Returns True if left side operand is greater than right operand
+<(Less than) -> Returns True if right operand is greater than left operands
+>=(Greater than equal to) :-> It returns true if left operand is greater or same as right operand
+<=(Less than equal to) -> It returns true if left opernad is less or same as right operand
+
+
+4.Logical Operator: Used for logical AND, OR, NOT operation
+AND -> Returs true if both the operands are true, else false
+OR -> Returns true if any the operand are true , if both are false then returns false
+NOT -> Returns the Oppostive Value
+
+
+5. Membership Operator:- Used to check if a value or variable is found im a sequence or not.
+in -> Returns True if value found in the sequence.
+not in -> Returns true if value not found in the sequence 
+
+6. Identity Operator: Checks Whether Two objects share the same memory location.
+is -> Returns True if Operand refer to same object.
+is not -> Returns True if operand refer to different object
+
+##Conditional Statements
+It is a statement that controls the flow of a program by executing certain code blocks only if specific condition are satisfied.
+With these statements we can make decisions in our codes that's why it is also known as decision making statements.
+
+##Types of Conditional Statements:
+
+1.If statements : If only executes the block if the condition is true
+Syntax: if condition:
+  instructions
+if the condition is false nothing happens
+2.If-Else Statements: It executes if block only when the condition is true otherwise the else block will executes. When we have two sets of instructions but one condition and we want to execute only one block of code in that situation we can use if else statements.
+Syntax: if condition:
+  instructions
+  else:
+  Instructions
+
+3.elif Statements : It is used to check multiple conditions in a sequence , the first condition that's true will get executed if none are true then else block will execute.
+It is used for several cases handling.
+Syntax: if condition:
+  instructions
+  elif condition:
+  instructions
+  elif condition:
+  instructions
+  else:
+  Instructions
+
+##Loops: A loop is used to repeat a block of code multiple times until a specific condition is false.
+Loops are used to automate the tasks, to avoid the duplicacy and making code efficient.
+Types of Loops:
+
+For Loop: It is used to iterate over a sequence or range.
+It executes it's body or block of code once for each iteration in the sequence or range.
+Syntax: for condition:
+  instructions
+for i in range()
+  Instructions
+
+2. While Loop: It executes it's body as long as the condition is true best to use when we don't know the stopping point.
+Syntax: While condition:
+  Instructions
+
+3. Nested Loop: It means a loop inside another loop, it is useful when we have multidimensional data like matrices.
+ex: for i in range(1,5)
+  for j in range(1,5)
+  print(i,j)
+
+Note:
+Break-> It is used to exit the loop, Loop body must be indented
+Continue: It is used to keep the rest code and jump to next code
+
+##String: A string is a sequence of characters used to represent text.
+Strings are enclosed in single quote, double quote or triple quote.
+
+##Property of String:
+- Strings are index base collection where each and every character can be accessed by their individual index which starts from Zero.
+- Strings can’t be changed after creation because strings are immutable in nature. Any operations that modify a string returns a new string
+- String Supports Slicing -> s[1:6]
+- Strings are case Sensitive, where a and A are different characters.
+- Strings supports concatenation and repetition
+
+Note: Use 'len' method to find length.
+S[5:] - It returns a substring up to last characters.
+s[:5] - It reruns a substring from starting index (0th index).
+eg: s= "Hello"
+print(s[-2]) //l
+
+##String inbuilt methods
+Lower():- It returns a string in a lower case. eg: print(s.lower())
+Upper():- It returns a string in upper case. eg: print(s.upper())
+Capitalize():- It returns a string with first letter capital. eg: print(s.capitalize())
+title() :- It Converts the first character of each word to uppercase. eg: print(s.title())
+Split() :- It splits a string into lists buy a specified separator. eg: print(s.split(" "))
+join() :- It joins elements of iterable with string. eg: print(" " .join(s))
+replace() :- It replace a substring with a new string. It accepts two arguments. Search Value and new Value. eg: print(s.replace('a','aa'))
+strip() :- It removes the starting and ending whitespaces. eg: print(s.strip())
+lstrip() :- It removes the starting whitespaces only. eg: print(s.lstrip())
+rstrip() :- It removes the ending whitespaces only. eg: print(s.rstrip())
+find() :- It returns the first occurrence index of a substring. eg: print(s.find('o'))
+rfind() :- It returns the last occurrence index of a substring . eg: print(s.rfind())
+index() :- It returns the index number of a substring if found, if not found then returns a ValueError. eg: print(s.index('o'))
+isalpha() :- It checks if all the characters are alphabetic , it returns the value in Boolean.eg: print(s.isalpha())
+isdigit() :- It checks all the characters are digits or not , it returns value in Boolean . eg: print(s.isdigit())
+isalnum() :- It checks if all characters are alpha numeric or not, it returns value in Boolean. eg: print(s.isalnum())
+isdecimal() :- It checks if the value is decimal or not, it returns value in Boolean. eg: print(s.isdecimal())
+count() :- It counts total occurrence of a substring. eg: print(s.count('l'))
+startswith() :- It checks if the string starts with a substring , it returns value in Boolean. eg: print(s.startswith('h'))
+endswith() :- It checks if the string end with a substring, it returns value in Boolean. eg: print(s.endswith())
+
