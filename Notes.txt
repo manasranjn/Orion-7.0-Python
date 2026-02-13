@@ -237,3 +237,52 @@ count() :- It counts total occurrence of a substring. eg: print(s.count('l'))
 startswith() :- It checks if the string starts with a substring , it returns value in Boolean. eg: print(s.startswith('h'))
 endswith() :- It checks if the string end with a substring, it returns value in Boolean. eg: print(s.endswith())
 
+##Dictionary
+a dictionary is a mutable and unordered collection of key value pairs.
+Each key must be unique.
+dictionary can store any type of values.
+Dictionary are denoted by {}
+
+#Characteristic of Dictionary:
+1. Key value pair - Data is stored as pairs by using single colon. e.g: key:value.
+2. Unordered - Items are not stored in a sequence and the order may change.
+3. Mutable - Dictionary can be modified after created.
+4. No Duplicate key - No key should be duplicate, duplicate key will override the previous value.
+-> To create a dictionary either we use curly braces {} or we can use dict() constructor.
+e.g: example = dict(key = value, key= value)
+-Also we can create an empty dictionary.
+e.g: my_dict = {}
+Operations on Dictionary:-
+1. To add a new key :-
+dictionaryName['keyName'] = Value
+2. To edit a key:-
+dictionaryName['keyName'] = Value
+3. To delete an key :-
+del dictionaryName['keyname']
+4. To iterate through a dictionary :-
+(a). for key,value in dictionaryName.items():
+  print(key,value)
+(b). for key in dictionaryName:
+  print(key)
+
+Dictionary Inbuilt Methods:
+1. Copy():- It returns a copy of the original dictionary.
+dictionaryName.copy()
+2.Keys() :- It returns all the key available in a dictionary.
+dictionaryName.keys()
+3.Values() :- It return a list of all the values available in a dictionary.
+dictionaryName.values()
+4.items() :- It returns view of key-value pairs from a dictionary .
+dictionaryName.items()
+5. get() :- It returns value of the key or a default value.
+- It accepts two arguments, a> Searchkey, b> Default-Value
+- If the key is present in the dictionary then it will return the value else then it will return the default value.
+dictionaryName.get("keyName", defaultValue)
+6.pop() :- It removes key and returns it's value.
+dictionaryName.get("keyName")
+7.popitem() :- It removes the last key.
+dictioanryName.popitem()
+8.update() :- It is used to update a keys value.
+dictionaryName.update({"key":value})
+9.clear() :- It removes all the items from a dictionary.
+dictionaryName.clear()
