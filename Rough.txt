@@ -1,0 +1,23 @@
+List properties and It's inbuilt methods:-
+Inbuilt methods:-
+1) Adding elements-
+	i)append(x)
+	ii)insert(i, x)
+	iii)extend(elements)
+	
+2) Removing elements-
+	i)remove(x)
+	ii)pop([i])
+	iii)clear()
+	
+3) Searching/Counting-
+	i)index(x)
+	ii)count(x)
+
+4) Sorting-
+	i)sort() / sort(reverse=True)
+	ii)reverse()
+
+5) copy()
+
+Note:- list(elements)
