@@ -21,3 +21,37 @@ Inbuilt methods:-
 5) copy()
 
 Note:- list(elements)
+
+OOPs- 
+Key Concept of OOP-
+1. Class- 
+Syntax:- 
+	class ClassName:
+		constructor(slef, parameter):
+			self.variable = parameter
+		
+		def methodName(self):
+			#instruction
+			
+2. Object-
+Syntax-
+	ObjectName = ClassName(arguments)
+	
+3.Method-
+Syntax-
+	class ClassName:
+		def methodName(self):
+			#instruction
+
+4. Self keyword-
+
+5. Constructor- __init__
+Syntax-
+	class ClassName:
+		__init__(slef, parameter):
+			self.variable = parameter
+		
+a)Default Constructor- It takes no arguments/parameter except self keyword.
+b)Parameterized Constructor- It takes one or more parameters including self keyword.
+-It initializes objects attributes with user value.
+c)Non-Parameterized Constructor- Same as default constructor, but explicitly mentioned when no arguments are passed.
