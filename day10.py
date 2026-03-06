@@ -63,7 +63,7 @@ class A:
         print("A")
 
 class B:
-    def method2(self):
+    def method1(self):
         print("B")
 
 class C:
@@ -71,5 +71,20 @@ class C:
         print("C")
 
 class D(A, B, C):
+    # def method1(self):
+    #     print("D")
+
     def method4(self):
-        print("D")
+        print("Class D")
+
+x1 = D()
+x1.method1()
+x1.method3()
+
+x2 = A()
+
+a = 10
+a = 20
+
+a = 30
+a = 'Hello'
