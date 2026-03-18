@@ -55,3 +55,20 @@ a)Default Constructor- It takes no arguments/parameter except self keyword.
 b)Parameterized Constructor- It takes one or more parameters including self keyword.
 -It initializes objects attributes with user value.
 c)Non-Parameterized Constructor- Same as default constructor, but explicitly mentioned when no arguments are passed.
+
+
+
+File Handling:-
+open(filePath, mode)
+r :-read
+w :-write
+a :-append
+r+ :-read and write
+w+ :-write and read
+a+ :-append and read
+
+seek = 0
+
+close()
+
+with keyword
