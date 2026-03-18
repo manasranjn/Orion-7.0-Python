@@ -9,3 +9,8 @@ def mul(a,b):
 
 def div(a,b):
     return a / b
+
+from math import *
+
+def power(a,b):
+    return pow(a,b)

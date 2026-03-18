@@ -75,8 +75,9 @@ car2 = Audi()
 # print(mul(10,20))
 # print(div(10,20))
 
-# import calculator as c
+import calculator as c
 # print(c.add(10,20))
 # print(c.sub(10,20))
 # print(c.mul(10,20))
 # print(c.div(10,20))
+print(c.power(10,2))
