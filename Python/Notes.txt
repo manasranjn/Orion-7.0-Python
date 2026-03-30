@@ -286,3 +286,66 @@ dictioanryName.popitem()
 dictionaryName.update({"key":value})
 9.clear() :- It removes all the items from a dictionary.
 dictionaryName.clear()
+
+
+
+Error:-
+Errors in programming referred to bugs or problems within a program that prevents it from functioning.
+-There are 4 types of errors in Python:-
+ 	1)Syntax Error :- Mistakes in code structure like missing semicolon, spelling mistake for keywords, which detected before execution.
+ 	2)Runtime Error :- Occurs while code runs, such as ZeroDivisionError.
+ 	3)Logical Error :- Code runs but produces unexpected results due to wrong logic.
+ 	4)Indentation Error :- Occurs due to incorrectly indented code blocks.
+-Errors in software or program is called bugs, and fixing errors or bugs is called debugging.
+-Some common errors are:- TypeError, ZeroDivisionError, ImportError, etc.
+
+Exception: An exception is a special type error that interrupts normal flow of program.
+-When an error occurs, Python creates an exception object that contains details about the error or problem, and then throws it to stop the execution.
+-Python includes many built-in exception classes, all are derived from Exception.
+
+Exception Handling: Exception handling separates error detection from business logic using try-except-finally blocks.
+ 	try block:- We write codes in try block which may occurs exception or error.
+ 	except block:- Handles exceptions, also we can specify specific type for response.
+ 	finally block:- It runs always, whether there is exception or not.
+Syntax:-
+try:
+ 	//instruction
+except:
+ 	//instruction
+finally:
+ 	//instruction
+-We can specify specific and multiple exception block within a program, which makes programs safer and easier to debug, and allows custom responses to differ error types.
+
+File Handling in Python:
+It allows performing operations like creating, opening, reading, writing, appending and closing files using built in function such as ‘open()’.
+
+Python uses the open method to work with files which has to main parameters :
+1. File Name 
+2. Mode
+
+-close() Method is used to close the file once you are done with your file handling.
+
+##File Handling Modes:
+
+'r'(Read mode) - It allows opens for files read only, if the file does not exist it will throws an error.
+'w' (Write mode) - It opens a files for writing if the files is existing if not it will create a new file. It will override or replace the previous data with new value or new data.
+'a' (Append mode) - It opens a file for writing if the files is exists, if not it will create a new file. It will add new content at the end.
+'r+' (Read and Write) - It opens a files for both reading and writing. if the file does not exist it will throws an error.
+'w+'(Write and read) - It opens a file for both reading and writing. if the files is existing if not it will create a new file. It will override or replace the previous data with new value or new data.
+'a+' (append and read mode) - It opens a file for both reading and appending reserving an existing data. It will create a new file if the file is not exist.
+
+# Reading Files:- Python provides three main methods to read files:
+1. read() - It reads the entire file as a string.
+2. readLine() - It reads the one lines at a time as a string.
+3. readLines() - It reads all the lines
+
+# Closing Files:- To close a file either we can use close method at the end of the file handling or we can use 'with' statement which can ensure file are probably are closed automatically
+Syntax: # file = open('File Handling/example.txt', 'r')
+# content = file.read()
+# print(content)
+# file.close()
+
+##Additional Method For file handling:-
+1. Seek() - It moves the file pointer to specific position
+2. Writable() - It checks if the file is writable or not
+3. Readable() - It checks if the file is readable or not
