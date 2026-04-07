@@ -61,4 +61,14 @@ a2 = np.array([[1,2,3,4], [5,6,7,8], [3,4,5,6], [7,8,9,0], [1,2,3,4], [5,6,7,8]]
 # print(a2[-2])
 # print(a2[0:2, 2:3])
 # print(a2[0:2, 2:])
-print(a2[:3, :2])
+# print(a2[:3, :2])
+
+# 3. Boolean Indexing   
+# a3 = a2>5
+# print(a3)
+
+# Iteration in NumPy
+for i in a2:
+    print(i)
+    for j in i:
+        print(j)
